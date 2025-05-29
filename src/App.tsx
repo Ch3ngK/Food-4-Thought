@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import Home from './Home';
 import './App.css';
-import logo from './Food4Thought.png';
-import userIcon from './user-icon.png';
-import passIcon from './password-icon.png';
-import chef from './chef.png';
+import logo from './pictures/Food4Thought.png';
+import userIcon from './pictures/user-icon.png';
+import passIcon from './pictures/password-icon.png';
+import chef from './pictures/chef.png';
 
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

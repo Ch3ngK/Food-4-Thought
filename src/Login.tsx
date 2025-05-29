@@ -4,7 +4,7 @@ import logo from './Food4Thought.png'; // Correct relative path
 import userIcon from './user-icon.png'; // Correct relative path for user icon
 import passIcon from './password-icon.png'; // Correct relative path for password icon
 import chef from './chef.png'; // Correct relative path for chef image
-import { useNavigate } from 'react-router-dom';
+//import { useNavigate } from 'react-router-dom';
 
 function Login() {
 //  const navigate = useNavigate(); // ✅ navigation hook
