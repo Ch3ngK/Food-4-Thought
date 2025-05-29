@@ -32,7 +32,7 @@ To bring out the hidden, local food to tourists and even locals who have yet to 
 
 Food-4-thought will be a web-based application that will provide information about highly recommended food places of various different cuisines and where the user will be able to input their thoughts as well.
 
-If the user is feeling adventurous, they will be able to create a food trail that they are able to follow as they go about their day of discovery. The users can navigate around Singapore using the built-in Google Maps that will be in-built into the application.
+If the user is feeling adventurous, they will be able to create a food trail that they are able to follow as they go about their day of discovery. The users can navigate around Singapore using the built-in Google Maps feature that will be integrated into the application.
 
 Food-4-thought’s features will be highlighted below, using the following format:  
 [Proposed] - features for the application by Splashdown  
