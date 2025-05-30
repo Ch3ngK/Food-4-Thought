@@ -111,6 +111,7 @@ function Home() {
                     <button className="Hover-button">Create your food trail!</button>
                     <div className="Dark-overlay"></div>
                 </div>
+                <div className="Quote">~Redefining food discovery~</div>
             </div>
         </div> 
     );

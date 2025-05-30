@@ -32,7 +32,7 @@
 
 .text-box-1 {
   position: absolute;
-  top: 4300px;
+  top: 1900px;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(255, 255, 255, 0.822);
@@ -43,7 +43,7 @@
   color: #333;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   width: 1700px;
-  height: 8000px;
+  height: 3200px;
 }
 
 .Grey-box-2 {
@@ -63,15 +63,7 @@
 .Cuisines-text-1 {
   position: absolute;
   color: rgb(0, 0, 0);
-  left: 250px;
-  font-size: 20px;
-  font-family: 'Inria Serif', regular;
-}
-
-.Popular-text-1 {
-  position: absolute;
-  left: 750px;
-  color: rgb(0, 0, 0);
+  left: 400px;
   font-size: 20px;
   font-family: 'Inria Serif', regular;
 }
@@ -86,7 +78,15 @@
 
 .About-text-1 {
   position: absolute;
-  left: 500px;
+  left: 800px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: 'Inria Serif', regular;
+}
+
+.Popular-text-1 {
+  position: absolute;
+  right: 550px;
   color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: 'Inria Serif', regular;
@@ -94,7 +94,7 @@
 
 .Create-food-trail-text-1 {
     position: absolute;
-    left: 1000px;
+    right: 50px;
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'Inria Serif', regular;
@@ -538,4 +538,17 @@
 /* Show overlay when hovering the button */
 .Hover-button:hover ~ .Dark-overlay {
   opacity: 1;
+}
+
+.Quote {
+  position: absolute;
+  bottom: 100px;
+  right: 555px;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: 'Inria Serif', regular;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
 }
