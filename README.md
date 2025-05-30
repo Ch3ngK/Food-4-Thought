@@ -45,9 +45,9 @@ Food-4-thought’s features will be highlighted below, using the following forma
 _FOOD CUISINES RECOMMENDATION TO THE USER_
  
 **[Proposed]**  
-Our proposed food recommendation system to the user would appear in the main page of the application, after the user has logged in. This recommendation system is to help the user by making the decision making process easier for them. 
+Our proposed food recommendation system to the user will be featured on the main page of the application after the user has logged in. The system is designed to assist users by simplifying the decision-making process when choosing what to eat, and offering personalized food suggestions tailored to the user's preferences.
 
-This will be achieved by choosing 3 random cuisines that will be updated daily and be shown in the main page. The user is then able to click the recommended cuisines and would be redirected to the page which displays all of the food places from that particular cuisine.
+This will be achieved by choosing 3 dishes from 3 different cuisines that will be updated daily and be shown in the main page. The user is then able to click the recommended dish and would be redirected to the page which displays all of the food places with regards to the dish.
 
 **[Current Progress]**  
 Currently, our proof-of-concept is just a static design of 3 cuisines hard-coded into the main page in order for users to visualize how it would look like blended into the main page. 
@@ -58,7 +58,7 @@ Currently, our proof-of-concept is just a static design of 3 cuisines hard-coded
 _A FORUM OF FOOD RECOMMENDATION FOR LOCALS_
 
 **[Proposed]**  
-Users are able to search their desired food or food places by searching through their desired categories such as the cuisine, name, etc. There will be a main button in the main page that will lead to the page where the users are able to choose their desired cuisine. The users are then able to click on the cuisines that they would like to eat and it would lead them to a page with the various dishes or food places that are available corresponding to the cuisine. 
+Users are able to search their desired food or food places by searching through their desired categories such as the cuisine, name, etc. There will be a 'Cuisines' button in the main page that will lead to the page where the users are able to choose their desired cuisine. The users are then able to click on the cuisines that they would like to eat and it would lead them to a page with the various dishes or food places that are available corresponding to the cuisine. 
 
 **[Current Progress]**  
 For Milestone 1, we would be implementing a hard-coded version of the forum for these food places with clickable buttons that will be able to lead to the next page. However, the information of those pages would be still and non-interactive as we have not integrated the database into the application.
@@ -78,7 +78,7 @@ For Milestone 1, this has yet to be implemented. Users would not be able to see 
 _FOOD TRAIL SYSTEM_
 
 **[Proposed]**  
-The user would be able to do a 1-day food trail for local food, which includes directions for each food location that is modeled as a ‘stop’ in a ‘journey’. This can be extended to 2-days or more depending on the user’s needs or requirements. Users are also able to create their own personalised food trails by selecting the foods they desire from the various cuisines provided and a mini schedule may be drafted for them. 
+The user would be able to plan a mini 1-day food trail for local food, which includes directions for each food location that is modeled as a ‘stop’ in their culinary journey. The system will provide directions in between stops, ensuring a seamless experience. The trail can be extended to two or more days depending on the user’s preferences or requirements. Additionally, users can create their own personalised food trails by selecting the foods they desire from the various cuisines provided. Based on their selections, the system will draft a mini schedule to guide them. 
 
 **[Current Progress]**  
 For Milestone 1, this has yet to be implemented as we have not yet integrated with the google maps API. However, we are planning to include a basic implementation of the food trail idea by utilising a system that the user is able to add certain locations to a list which is similar to a task editor.
@@ -88,10 +88,10 @@ For Milestone 1, this has yet to be implemented as we have not yet integrated wi
 _REVIEWS SYSTEM_
 
 **[Proposal]**  
-The user would be able to input reviews and rate from a scale of 1 to 5 stars about a particular place that they have visited and thought that it was a “hidden gem” in Singapore. Other users would be able to see the review and would be able to upvote that particular place if they agree. If other users do not agree with the review, they would be able to downvote and then be prompted to include their own rating of the place. 
+The user would be able to submit reviews and rate food locations from a scale of 1 to 5 stars, especially for places they consider to be a 'hidden gem' in Singapore. Other users would be able to see the review and would be able to upvote that particular place if they agree. If other users disagree with the review, they would be able to downvote and then be prompted to include their own rating and feedback of the place. 
 
 **[Current Progress]**  
-For Milestone 1, this has yet to be implemented. This would be considered an additional extension of our other features.
+For Milestone 1, this has yet to be implemented. This would be considered an additional extension of our other features. A hard-coded simulation of the review system has been created for demonstration purposes only.
 
 ## Tech Stack 
 
@@ -124,6 +124,7 @@ Most food apps like Google Maps reviews surface the usual popular spots but we g
 |                                        | Design the web application looks for food trial page                        | 28 May - 29 May    |
 |                                        | Design the web application looks for cuisines page                          | 28 May - 29 May    |
 |                                        | Design the web application looks for food places page                       | 28 May - 31 May    |
+|                                        | Design the web application looks for 'Forgot password' and 'Sign-up'        | 29 May - 30 May    |
 | **Backend research**                   | Familiarising and learning about Supabase and how it connects to frontend   | 18 May - 2 June    |
 
 #### Evaluation Milestone 1 (2 June):
@@ -134,15 +135,15 @@ Most food apps like Google Maps reviews surface the usual popular spots but we g
 
 | Tasks                                  | Description                                                                 | Date               |
 |----------------------------------------|-----------------------------------------------------------------------------|--------------------|
-| **Frontend application design (cont’d)** | Design the web application looks for the reviews page                        | 2 June - 8 June    |
+| **Frontend application design (cont’d)** | Design the web application looks for the reviews page                     | 2 June - 8 June    |
 |                                        | Design the web application for the maps page                                | 2 June - 8 June    |
 | **User Interface**                     | Standardise the overall UI of the application                               | 2 June - 8 June    |
-|                                        | Main Menu screen                                                             | 2 June - 8 June    |
-|                                        | Ensure the UI is consistent                                                  | 2 June - 8 June    |
+|                                        | Main Menu screen                                                            | 2 June - 8 June    |
+|                                        | Ensure the UI is consistent                                                 | 2 June - 8 June    |
 | **Database Integration (Supabase)**    | All pictures are loaded from Supabase                                       | 9 June - 27 June   |
 |                                        | Cuisines and food places can be saved and displayed                         |                    |
 |                                        | Ability to save and load the website again                                  |                    |
-|                                        | Authentication                                                               |                    |
+|                                        | Authentication                                                              |                    |
 | **Testing and Debugging**              | Preparation for Milestone 2                                                 | 27 June - 30 June  |
 
 #### Evaluation Milestone 2 (30 June): Linking with Database
