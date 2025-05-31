@@ -15,6 +15,7 @@ import nasilemak from './pictures/nasi-lemak-demo.jpg';
 import star from './pictures/star.png';
 import halfstar from './pictures/half-star.png';
 import foodtrailbackground from './pictures/food-trail-background.jpg';
+import { Link } from 'react-router-dom';
 
 function Home() {
     const sliderSettings = {
@@ -72,8 +73,9 @@ function Home() {
                 <div className="Black-box-2">
                     <div className="Fresh-from-community-text">Fresh from the community</div>
                 </div>
-                <div className="Comment-section-1">
+                <div className="Newspaper-container">
                     <img id="Newspaper" src={newspaper} alt="Newspaper" />
+                    <div className="Newspaper-overlay"></div>
                     <div className="Comment-1-box">
                         <div className="Comment-1-text">Cheap and affordable western at ang mo kio coffeeshop</div>
                         <img id="Western-demo" src={western} alt="Western food demo" />
@@ -108,7 +110,7 @@ function Home() {
                 <button type="submit" className="See-all-button">See more</button>
                 <div className="Image-container">
                     <img id="Food-trail-background" src={foodtrailbackground} alt="Food trail background"/>
-                    <button className="Hover-button">Create your food trail!</button>
+                    <Link to="/food-start" className="Hover-button-link">Create your food trail!</Link>
                     <div className="Dark-overlay"></div>
                 </div>
                 <div className="Quote">~Redefining food discovery~</div>

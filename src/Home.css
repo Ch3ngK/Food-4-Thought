@@ -14,6 +14,7 @@
   background-position: center; 
   border: 2px solid #ccc; 
   border-radius: 5px; 
+  filter: brightness(0.6); /* dim the background */
 }
 
 .Grey-box-1 {
@@ -66,6 +67,12 @@
   left: 400px;
   font-size: 20px;
   font-family: 'Inria Serif', regular;
+  transition: transform 0.3s ease; /* add transition here */
+}
+
+.Cuisines-text-1:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 .Home-text-1 {
@@ -74,6 +81,12 @@
   color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: 'Inria Serif', regular;
+  transition: transform 0.3s ease;
+}
+
+.Home-text-1:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 .About-text-1 {
@@ -82,6 +95,12 @@
   color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: 'Inria Serif', regular;
+  transition: transform 0.3s ease;
+}
+
+.About-text-1:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 .Popular-text-1 {
@@ -90,6 +109,12 @@
   color: rgb(0, 0, 0);
   font-size: 20px;
   font-family: 'Inria Serif', regular;
+  transition: transform 0.3s ease;
+}
+
+.Popular-text-1:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 .Create-food-trail-text-1 {
@@ -98,6 +123,12 @@
     color: rgb(0, 0, 0);
     font-size: 20px;
     font-family: 'Inria Serif', regular;
+    transition: transform 0.3s ease;
+}
+
+.Create-food-trail-text-1:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 #Logo-1 {
@@ -214,6 +245,7 @@
   width: 1700px;
   right: 50px;
   opacity: 0.8;
+  transition: filter 0.3s ease;
 }
 
 .Black-box-2 {
@@ -240,10 +272,16 @@
   font-style: italic;
 }
 
+.Newspaper-container {
+  position: relative;
+  left: 50px;
+  bottom: 750px;
+}
+
 .Comment-1-box {
     position: absolute; 
     top: 1250px;
-    left: 900px;
+    left: 800px;
     height: 200px;
     width: 1600px;
     transform: translate(-50%, -50%);
@@ -320,7 +358,7 @@
 .Comment-2-box {
     position: absolute; 
     top: 1540px;
-    left: 900px;
+    left: 800px;
     height: 200px;
     width: 1600px;
     transform: translate(-50%, -50%);
@@ -329,7 +367,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background-color: rgb(255, 255, 255);
-}
+} 
 
 .Comment-2-text {
   color: black;
@@ -397,7 +435,7 @@
 .Comment-3-box {
     position: absolute; 
     top: 1840px;
-    left: 900px;
+    left: 800px;
     height: 200px;
     width: 1600px;
     transform: translate(-50%, -50%);
@@ -470,6 +508,13 @@
   width: 60px;
 }
 
+.Comment-1-box:hover ~ .Newspaper-overlay,
+.Comment-2-box:hover ~ .Newspaper-overlay,
+.Comment-3-box:hover ~ .Newspaper-overlay {
+  opacity: 1;
+}
+
+
 .See-all-button {
   position: absolute;
   top: 2050px;
@@ -504,40 +549,47 @@
   display: block;
 }
 
-/* The dark overlay */
+#Food-trail-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .Dark-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* 50% darkness */
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none; /* allows clicks to pass through */
+  background-color: rgba(0, 0, 0, 0.4); /* default dim */
+  transition: background-color 0.3s ease;
+  z-index: 1;
 }
 
-/* Button styling */
-.Hover-button {
+.Hover-button-link {
   position: absolute;
-  top: 300px;
-  right: 600px;
-  z-index: 2;
-  padding: 8px 16px;
-  background: rgb(0, 0, 0);
-  border: none;
-  cursor: pointer;
-  height: 100px;
-  width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ff914d;
   color: white;
-  font-size: 40px;
-  font-family: 'Inria Serif', regular;
+  padding: 12px 24px;
+  font-size: 18px;
   font-weight: bold;
+  font-family: 'Inria Serif', regular;
+  text-decoration: none;
+  border-radius: 8px;
+  z-index: 2;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* Show overlay when hovering the button */
-.Hover-button:hover ~ .Dark-overlay {
-  opacity: 1;
+.Image-container:hover .Dark-overlay {
+  background-color: rgba(0, 0, 0, 0.6); /* darker on hover */
+}
+
+.Image-container:hover .Hover-button-link {
+  background-color: #ff732d; /* darker orange */
+  transform: translate(-50%, -50%) scale(1.05);
 }
 
 .Quote {
