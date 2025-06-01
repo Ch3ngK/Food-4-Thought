@@ -6,9 +6,9 @@ import SignUp from './SignUp';
 import Home from './Home';
 import FoodStart from './food trail/FoodStart';
 import FoodTrail from './food trail/FoodTrail';
-import Cuisine from './cuisines/src/cuisinePage';
-import ChineseCuisine from './cuisines/src/pages/chineseCuisine';
-import DragonPalace from './cuisines/src/pages/dragon-palace';
+import Cuisine from './cuisinePage';
+import ChineseCuisine from './pages/chineseCuisine';
+import DragonPalace from './pages/dragon-palace';
 
 
 function App() {
