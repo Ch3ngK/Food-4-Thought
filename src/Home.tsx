@@ -46,7 +46,7 @@ function Home() {
             </div>
             <div className="text-box-1">
                 <div className="Grey-box-2">
-                    <div className="Cuisines-text-1">Cuisines</div>
+                    <Link to="/cuisines" className="Cuisines-text-1">Cuisines</Link>
                     <div className="Popular-text-1">Popular</div>
                     <div className="Home-text-1">Home</div>
                     <div className="About-text-1">About</div>

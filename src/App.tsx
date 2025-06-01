@@ -6,6 +6,10 @@ import SignUp from './SignUp';
 import Home from './Home';
 import FoodStart from './food trail/FoodStart';
 import FoodTrail from './food trail/FoodTrail';
+import Cuisine from './cuisines/src/cuisinePage';
+import ChineseCuisine from './cuisines/src/pages/chineseCuisine';
+import DragonPalace from './cuisines/src/pages/dragon-palace';
+
 
 function App() {
   return (
@@ -17,7 +21,10 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/food-start" element={<FoodStart />} />
         <Route path="/food-trail" element={<FoodTrail />} />
-      </Routes>
+        <Route path="/cuisines" element={<Cuisine />} />
+        <Route path="/cuisine/:cuisineName" element={<ChineseCuisine />} />
+        <Route path='/dragon-palace' element={<DragonPalace />} />
+       </Routes>
     </Router>
   );
 }

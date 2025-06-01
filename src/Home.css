@@ -147,6 +147,12 @@
   width: 70px; 
   height: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#Instagram:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 #Facebook {
@@ -156,6 +162,12 @@
   width: 70px; 
   height: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#Facebook:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 #Twitter {
@@ -165,6 +177,12 @@
   width: 70px; 
   height: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#Twitter:hover {
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 #Tiktok {
@@ -174,6 +192,12 @@
   width: 70px; 
   height: 70px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+#Tiktok:hover{
+  transform: scale(1.1); 
+  cursor: pointer; 
 }
 
 .Welcome-1 {
@@ -603,4 +627,5 @@
   font-style: italic;
   font-weight: bold;
   text-align: center;
+  text-decoration: underline; 
 }

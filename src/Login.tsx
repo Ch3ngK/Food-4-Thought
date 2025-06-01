@@ -14,7 +14,7 @@ function Login() {
   return (
     <div className="App">
       <header className="App-header">
-        <div className="background-img"></div>
+        <div className="background-img-0"></div>
         <div className="text-box">
           <img id="Chef" src={chef} alt="Chef Image" />
           <div className="Welcome">Welcome to</div>
