@@ -183,10 +183,10 @@ Most food apps like Google Maps reviews surface the usual popular spots but we g
 
 ### Set-up and how to launch the application:
 1. Download the file containing the source code
-2. Ensure that you have `npm` and `react` installed (to install: run `npm install`)
+2. Ensure that you have `npm` and `react` installed (to install: run `npm install` and `npm install react-router-dom`)
 3. Open up command prompt or terminal
 4. Navigate to your file folder that has react installed using the command prompt using `cd`
-5. Type in `npm start`
+5. Type in `npm start` in the terminal
 6. Access the website at `https://localhost:3000` in your own preferred browser
 
 ## Work Log 
