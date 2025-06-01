@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Food-4-Thought
 
 ## Proposed Level of Achievement  

@@ -1,0 +1,19 @@
+.add-button-2 {
+    position: absolute;
+    top: 263px;
+    right: 180px;
+    height: 55px;
+    background-color: #ff6347; /* Tomato color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.food-input {
+    height: 40px;
+    font-size: 15px;
+
+}
